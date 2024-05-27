@@ -1,0 +1,14 @@
+.about{
+    padding: 5rem 0;
+}
+
+.about-heading{
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(230, 18, 18);
+    width: 50%;
+}
+
+ul li{
+    list-style: none;
+}

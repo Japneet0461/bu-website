@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="department-name">Computer Science Papers</h1>
+        </header>
+        <form id="upload-form">
+            <div class="form-group">
+                <input type="text" id="caption" placeholder="Caption" required>
+            </div>
+            <div class="form-group">
+                <input type="file" id="file-input" accept="image/*" required>
+            </div>
+            
+            <button type="submit">Upload Paper</button>
+        </form>
+        <div id="papers-list"></div>
+    </div>
+
+    <script src="papers.js"></script>
+</body>
+</html>
